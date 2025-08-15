@@ -1,0 +1,42 @@
+{
+  "name": "immersive-virtual-reality-thesis",
+  "version": "1.0.0",
+  "description": "Computer Science Graduation Thesis on Immersive Virtual Reality - CESUPA Brazil 1999",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 3000",
+    "build": "echo 'Static site - no build needed'",
+    "serve": "python3 -m http.server 8080",
+    "clean": "rm -rf node_modules .cache dist",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop all",
+    "pm2:restart": "pm2 restart all",
+    "pm2:status": "pm2 status"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raidhosn/graduation-thesis.git"
+  },
+  "keywords": [
+    "virtual-reality",
+    "computer-science",
+    "graduation-thesis",
+    "cesupa",
+    "immersive-vr",
+    "1999",
+    "historical",
+    "brazil"
+  ],
+  "author": "CESUPA Computer Science Graduate",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.6"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
